@@ -1,0 +1,36 @@
+.gameContent{
+
+    width: 500px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0px;
+}
+
+.select{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.choose{
+    border-bottom-style: solid;
+    border-right-style: solid;
+    text-align: center;
+}
+
+.main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.startBtn{
+    margin-top: 400px;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: gray;
+}
